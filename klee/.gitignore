@@ -1,0 +1,6 @@
+
+# clang output
+*.bc
+# klee output
+klee-*
+
