@@ -1,7 +1,2 @@
-# from guide:
-# https://harmony.cs.cornell.edu/docs/textbook/install/
-
 graphviz
 harmony
-# on error, you might need to perform:
-# apt python3-dev
