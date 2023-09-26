@@ -30,3 +30,8 @@ Exit the container with `exit`.
 There's an added define in `interpreter.c` which will disable all print statements.
 This makes KLEE's output more clear and helps speed up the fuzzing.
 Pass the define flag `-DFUZZING` with `clang` to compile without the output from `interpreter.c`.
+
+```bash
+clang -DFUZZING -emit-llvm -g -c program.c -o program.bc
+```
+
